@@ -167,7 +167,7 @@ export async function POST(req: Request) {
         });
 
         // Return the stream response
-        return result.toDataStreamResponse();
+        return result.toTextStreamResponse();
 
     } catch (error) {
         console.error('API Error:', error);

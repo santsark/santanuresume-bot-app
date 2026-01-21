@@ -23,7 +23,7 @@ jest.mock('@ai-sdk/openai', () => ({
 
 jest.mock('ai', () => ({
     streamText: jest.fn().mockReturnValue({
-        toDataStreamResponse: jest.fn().mockReturnValue(new Response('Mock Stream')),
+        toTextStreamResponse: jest.fn().mockReturnValue(new Response('Mock Stream')),
     }),
 }));
 
