@@ -24,7 +24,7 @@ export function Sidebar() {
                     <h2 className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">Contact & Links</h2>
                     <nav className="space-y-1">
                         <Link
-                            href="https://www.linkedin.com/in/santanu-sarkar-20306921"
+                            href="https://www.linkedin.com/in/santanu-sarkar1980"
                             target="_blank"
                             className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-neutral-300 hover:bg-neutral-800 hover:text-white transition-colors"
                         >
